@@ -1,0 +1,21 @@
+Q1: How would you organize the same app if the data list would consist of 100 songs?
+If the data list would consist of 100 songs, it is better to 
+
+If the data list would consist of 100 songs, 
+it is better to divide it into some parts 
+for loading(lazy loading). Limit songs to 10-20 
+for the fetch and the rest of them will wait until 
+the user changes the page to another(pagination). 
+That also affects the time consumption and memory usage
+on the good side.
+
+Q2: Roughly, how would you design the software architecture for a page like muvid?
+-Have a clear understanding of requirements
+-Start thinking about each component
+-directory/folder structure
+-HoistingCI/CD .ENV SETUP
+-Backend/DB connectivity
+-UI
+-Redux
+-Route for navigation
+
